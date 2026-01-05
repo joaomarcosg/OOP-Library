@@ -8,11 +8,7 @@ public class Book {
     private Author author;
 
     public Book(Author author) {
-        this();
         this.author = author;
-    }
-
-    public Book() {
         this.isbn = "000-00-00000-00-0";
     }
 
