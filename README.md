@@ -2,4 +2,4 @@
 
 ### Objetivos
 
-Essa pequena aplicação didática tem como objeto a aplicação prática dos estudos de Programação Orientada a Objetos com a linguagem de programação Java.
+Essa pequena aplicação didática tem como objetivo a aplicação prática dos estudos de Programação Orientada a Objetos com a linguagem de programação Java.
