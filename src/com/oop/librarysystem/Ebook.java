@@ -7,6 +7,14 @@ public class Ebook extends Book{
         super(author);
     }
 
+    @Override
+    public boolean applyDiscount(double percent) {
+        if (percent > 0.15) {
+            return false;
+        }
+        return super.ApplyDiscount(percent);
+    }
+
     public String getWatermark() {
         return watermark;
     }
