@@ -12,7 +12,7 @@ public class Ebook extends Book{
         if (percent > 0.15) {
             return false;
         }
-        return super.ApplyDiscount(percent);
+        return super.applyDiscount(percent);
     }
 
     public String getWatermark() {
