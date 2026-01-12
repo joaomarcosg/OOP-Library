@@ -12,19 +12,19 @@ public class Book {
         this.isbn = "000-00-00000-00-0";
     }
 
-    void ShowDetails() {
+    void showDetails() {
         System.out.println("Showing book details");
         System.out.println("Name: " + name);
         System.out.println("Description: " + description);
         System.out.println("Price: " + price);
         System.out.println("ISBN: " + isbn);
-        if (this.ThereIsAnAuthor()) {
+        if (this.thereIsAnAuthor()) {
             author.ShowDetails();
         }
         System.out.println("------");
     }
 
-    public boolean ApplyDiscount(double percent) {
+    public boolean applyDiscount(double percent) {
         if (percent > 0.3) {
             return false;
         }
@@ -32,11 +32,11 @@ public class Book {
         return true;
     }
 
-    void AddPrice(double price) {
+    void addPrice(double price) {
         this.price = price;
     }
 
-    double ReturnPrice() {
+    double returnPrice() {
         return this.price;
     }
 
@@ -80,7 +80,7 @@ public class Book {
         this.author = author;
     }
 
-    boolean ThereIsAnAuthor() {
+    boolean thereIsAnAuthor() {
         return this.author != null;
     }
 }
