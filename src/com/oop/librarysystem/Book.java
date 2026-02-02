@@ -1,6 +1,6 @@
 package com.oop.librarysystem;
 
-public class Book {
+public abstract class Book {
     private String name;
     private String description;
     private double price;
@@ -24,13 +24,7 @@ public class Book {
         System.out.println("------");
     }
 
-    public boolean applyDiscount(double percent) {
-        if (percent > 0.3) {
-            return false;
-        }
-        this.price -= this.price * percent;
-        return true;
-    }
+    public abstract boolean applyDiscount(double percent);
 
     void addPrice(double price) {
         this.price = price;
