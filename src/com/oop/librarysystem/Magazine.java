@@ -4,6 +4,7 @@ public class Magazine implements Product{
     private String name;
     private String description;
     private double price;
+    private Publisher publisher;
 
     public String getName() {
         return name;
@@ -28,6 +29,14 @@ public class Magazine implements Product{
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public Publisher getPublisher() {
+        return publisher;
+    }
+
+    public void setPublisher(Publisher publisher) {
+        this.publisher = publisher;
     }
 
     public boolean applyDiscount(double percent) {
