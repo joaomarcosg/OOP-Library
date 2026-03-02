@@ -1,5 +1,9 @@
-## Sistema de Cadastro de Livros usando Orientação a Objetos em Java
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo"  />
+</div>
 
-### Objetivos
+## Book Registration System using Object-Oriented Programming in Java
 
-Essa pequena aplicação didática tem como objetivo a aplicação prática dos estudos de Programação Orientada a Objetos com a linguagem de programação Java.
+### Objectives
+
+This small educational application aims to provide a practical application of Object-Oriented Programming studies using the Java programming language.
